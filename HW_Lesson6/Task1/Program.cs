@@ -6,7 +6,7 @@
 using static System.Console;
 Clear();
 WriteLine("Введите положительные и отрицательные числа, через пробел: ");
-string[] array = ReadLine()!.Split(/*new char[] { ' ', ',' },*/ " ", StringSplitOptions.RemoveEmptyEntries);
+string[] array = ReadLine()!.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 int SumArr = countNumbers(array);
 WriteLine(SumArr);
 
@@ -25,7 +25,7 @@ int countNumbers(string[] inArray)
     {
         if (ConvArray[i] > 0) numbers++;
     }
-    return numbers;
+    return numbers; q
 }
 
 
