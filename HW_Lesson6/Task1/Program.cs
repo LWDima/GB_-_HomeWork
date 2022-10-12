@@ -25,7 +25,7 @@ int countNumbers(string[] inArray)
     {
         if (ConvArray[i] > 0) numbers++;
     }
-    return numbers; q
+    return numbers;
 }
 
 
